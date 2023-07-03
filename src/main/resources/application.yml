@@ -1,0 +1,21 @@
+server:
+  port: 9200
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/bayern?characterEncoding=utf8&serverTimezone=GMT%2B8
+    username: root
+    password: 128622
+logging:
+  level:
+    com.kim: debug
+  pattern:
+    console: '%p%m%n'
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: assign_id
+
