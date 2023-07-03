@@ -19,7 +19,7 @@ import java.util.Map;
 public class QRCodeGenerator {
 
     public static void main(String[] args) {
-        String url = "E:/WNXY/1.jpg";
+        String url = "https://gitee.com/zhangjiaxuan622/learn-easyexcel/blob/master/img/72695661E092F812A08D801F74545F8D.jpg";
         String filePath = "E:/imig/outputQRCode.png";
         int width = 300;
         int height = 300;
